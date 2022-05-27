@@ -147,7 +147,7 @@ fsql.Delete<Blog>()
     .ExecuteAffrows();
 ```
 
-# FreeSqlBuilder
+## FreeSqlBuilder
 
 | 方法                                  | 返回值        | 说明                                                                                           |
 | ------------------------------------- | ------------- | ---------------------------------------------------------------------------------------------- |
@@ -163,7 +163,7 @@ fsql.Delete<Blog>()
 | UseExitAutoDisposePool                | this          | 监听 AppDomain.CurrentDomain.ProcessExit/Console.CancelKeyPress 事件自动释放连接池 (默认 true) |
 | Build\<T\>                            | IFreeSql\<T\> | 创建一个 IFreeSql 对象，注意：单例设计，不要重复创建                                           |
 
-# ConnectionStrings
+## ConnectionStrings
 
 | DataType                           | ConnectionString                                                                                                                                                                                |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
